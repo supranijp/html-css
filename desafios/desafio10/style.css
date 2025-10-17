@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face{
+    
+    font-family: 'fonte';
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background-color: #84E0AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+
+    background-image: linear-gradient(to bottom,#3CD982, #1A5C38 );
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+header > div{
+
+    text-align: left;
+    padding: 10px;
+}
+
+header > div > a{
+
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+header > div > a:hover{
+
+    background-color: #3CD982;
+}
+
+ article> h2{
+
+    color: #1A5C38;
+    
+    font-family: 'fonte';
+}
+
+article> h3{
+
+    background-image: linear-gradient(to right,#3cd98337, white );
+    font-family: 'fonte';
+    color: #1A5C38;
+}
+
+main{
+
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+ main > p{
+
+    text-align: justify;
+    text-indent: 30px;
+}
+
+article> p{
+
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.palavras_coloridas{
+
+    color: #1a5c38b7;
+    
+}
+
+ article > p > a::after {
+
+    content: '🔗';
+    
+}
+
+article > p > a{
+
+    color: #1A5C38;
+    text-decoration: none;
+    
+}
+article > p > a:hover{
+
+    text-decoration: underline;
+}
+
+section> p{
+
+    text-align: justify;
+    text-indent: 30px;
+}

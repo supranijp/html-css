@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+
+        a{
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a:hover{
+
+            color: purple;
+            text-decoration: underline;
+        }
+
+        .especial::after{
+
+            content: '⇐';
+            text-decoration: none;
+            font-weight: normal;
+            color: lightgray;
+        }
+
+        .especial::before{ 
+
+            content: '⇒';
+            text-decoration: none;
+            font-weight: normal;
+            color: lightgray;
+
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>Presonalizando Links</h1>
+
+    <ul>
+     <li><a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-suprani-rocha-180a00291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="especial">Linkedin</a></li> <br>
+
+     <li><a href="https://github.com/supranijp/Estudos-" target="_blank" class="especial">Github</a></li> <br>
+
+     <li><a href="https://www.instagram.com/joaopedrosuprani?igsh=MWY0ZTI0anduOTR2YQ==" target="_blank"class="especial">Instagram</a></li>
+
+    </ul>
+
+</body>
+</html>
